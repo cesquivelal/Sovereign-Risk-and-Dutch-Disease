@@ -18,7 +18,7 @@ The code is written in the Julia language, version 1.7.2 and uses the following 
 
 The file Primitives.jl defines all objects and functions that are used to solve and simulate the model.
 
-The file mainSolve.jl in the folder DutchDisease uses the file Primitives.jl to solve for the planner's and decentralized equilibria in the benchmark model, in the case with low elasticity of substitution and in the case for the benchmark with no commodities. These solutions are stored in separate .csv files.
+The file mainSolve.jl in the folder DutchDisease uses the file Primitives.jl to solve for the planner's and decentralized equilibria in the benchmark model, in the case with low elasticity of substitution and in the case for the benchmark with no commodities. These solutions are stored in separate .csv files. The file Setup.csv defines parameters used in each solution.
 
 The file mainSolve.jl in the folder SolveWithSubsidyRule solves for the decentralized equilibrium with the fitted simple subsidy rules using the file Primitives.jl. It also uses the benchmark solution Decentralized.csv and stores the result in the file Decentralized_rules.csv.
 
